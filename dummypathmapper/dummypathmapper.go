@@ -5,10 +5,10 @@
 package dummypathmapper
 
 import (
-	"github.com/dfeyer/flow-debugproxy/config"
-	"github.com/dfeyer/flow-debugproxy/logger"
-	"github.com/dfeyer/flow-debugproxy/pathmapperfactory"
-	"github.com/dfeyer/flow-debugproxy/pathmapping"
+	"../config"
+	"../logger"
+	"../pathmapperfactory"
+	"../pathmapping"
 )
 
 const framework = "dummy"

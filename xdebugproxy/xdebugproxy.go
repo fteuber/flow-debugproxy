@@ -5,9 +5,9 @@
 package xdebugproxy
 
 import (
-	"github.com/dfeyer/flow-debugproxy/config"
-	"github.com/dfeyer/flow-debugproxy/logger"
-	"github.com/dfeyer/flow-debugproxy/pathmapping"
+	"../config"
+	"../logger"
+	"../pathmapping"
 
 	"fmt"
 	"io"

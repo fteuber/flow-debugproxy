@@ -5,17 +5,17 @@
 package main
 
 import (
-	"github.com/dfeyer/flow-debugproxy/config"
+	"./config"
 
-	"github.com/dfeyer/flow-debugproxy/errorhandler"
-	"github.com/dfeyer/flow-debugproxy/logger"
-	"github.com/dfeyer/flow-debugproxy/pathmapperfactory"
-	"github.com/dfeyer/flow-debugproxy/pathmapping"
-	"github.com/dfeyer/flow-debugproxy/xdebugproxy"
+	"./errorhandler"
+	"./logger"
+	"./pathmapperfactory"
+	"./pathmapping"
+	"./xdebugproxy"
 
 	// Register available path mapper
-	_ "github.com/dfeyer/flow-debugproxy/dummypathmapper"
-	_ "github.com/dfeyer/flow-debugproxy/flowpathmapper"
+	_ "./dummypathmapper"
+	_ "./flowpathmapper"
 
 	"github.com/codegangsta/cli"
 

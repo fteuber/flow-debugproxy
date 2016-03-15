@@ -5,11 +5,11 @@
 package flowpathmapper
 
 import (
-	"github.com/dfeyer/flow-debugproxy/config"
-	"github.com/dfeyer/flow-debugproxy/errorhandler"
-	"github.com/dfeyer/flow-debugproxy/logger"
-	"github.com/dfeyer/flow-debugproxy/pathmapperfactory"
-	"github.com/dfeyer/flow-debugproxy/pathmapping"
+	"../config"
+	"../errorhandler"
+	"../logger"
+	"../pathmapperfactory"
+	"../pathmapping"
 
 	"bytes"
 	"fmt"

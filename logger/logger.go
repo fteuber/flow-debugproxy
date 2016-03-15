@@ -5,7 +5,7 @@
 package logger
 
 import (
-	"github.com/dfeyer/flow-debugproxy/config"
+	"../config"
 
 	"bytes"
 	"fmt"

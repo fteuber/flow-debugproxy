@@ -5,10 +5,10 @@
 package pathmapperfactory
 
 import (
-	"github.com/dfeyer/flow-debugproxy/config"
-	"github.com/dfeyer/flow-debugproxy/logger"
-	"github.com/dfeyer/flow-debugproxy/pathmapping"
-	"github.com/dfeyer/flow-debugproxy/xdebugproxy"
+	"../config"
+	"../logger"
+	"../pathmapping"
+	"../xdebugproxy"
 
 	"errors"
 )

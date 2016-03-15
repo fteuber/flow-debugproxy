@@ -5,7 +5,7 @@
 package errorhandler
 
 import (
-	"github.com/dfeyer/flow-debugproxy/logger"
+	"../logger"
 	"os"
 )
 
